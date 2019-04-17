@@ -1,0 +1,51 @@
+ <! DOCTYPE html>
+ <html>
+
+<head>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\dchen\OneDrive\Documents\Coding\OpenClassrooms\Project 2\Film Fest\CSS\FilmFest.css" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+	<title>
+		Movie Info
+	</title>
+
+</head>
+
+<body>
+
+<header class="header">
+	<h2 class="info">
+		Movie Information
+	</h2>
+
+<!-- Navigation Menu -->
+	<div class="navigation">
+		<nav class="navigation">
+			<a href="index.html">Home</a>
+			<a href="info.html">Info</a>
+			<a href="pre-registration.html">Pre-Register</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</div>
+</header>
+
+<!-- Footer Information -->
+<footer class="footer">
+	<div class="brooklyn-news">
+		<a href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn">City of Brooklyn News</a>
+	</div>
+	<div class="brooklyn-park">
+		<a href="https://www.brooklynpark.org/">Brooklyn Park</a>
+	</div>
+	<div class="social-media">
+		<a href="https://twitter.com/">Twitter</a><span> · </span><a href="https://www.instagram.com/">Instagram</a><span> · </span><a href="https://facebook.com/">Facebook</a>
+	</div>
+</footer>
+
+</body>
+
+</html>
