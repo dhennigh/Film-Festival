@@ -1,0 +1,76 @@
+ <! DOCTYPE html>
+ <html>
+
+<head>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\dchen\OneDrive\Documents\Coding\OpenClassrooms\Project 2\Film Fest\CSS\FilmFest.css" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+	<title>
+		Pre-Register
+	</title>
+
+</head>
+
+<body>
+
+<header class="header">
+	<h2 class="pre-register">
+		Pre-Register
+	</h2>
+
+<!-- Navigation Menu -->
+	<div class="navigation">
+		<nav class="navigation">
+			<a href="index.html">Home</a>
+			<a href="info.html">Info</a>
+			<a href="pre-registration.html">Pre-Register</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</div>
+
+</header>
+
+<!-- Pre-Reg Form -->
+
+	<div class="reg-form">
+		<form action="/action_page.php/">
+			First name:<br>
+			<input type="text" name="firstname"><br>
+			Last name:<br>
+			<input type="text" name="lastname"><br>
+			Party size:<br>
+			<input type="text" name="partysize"><br>
+			E-mail address (for confirmation):<br>
+			<input type="text" name="email"><br><br>
+			Movie selection (select all that apply):<br>
+			<input type="checkbox" name="LittlePrince" value="The Little Prince"> The Little Prince<br>
+			<input type="checkbox" name="Moana" value="Moana"> Moana<br>
+			<input type="checkbox" name="WizardOfOz" value="The Wizard of Oz"> The Wizard of Oz<br>
+			<input type="checkbox" name="InsideOut" value="InsideOut"> Inside Out<br>
+			<input type="checkbox" name="WildThings" value="WildThings"> Where the Wild Things Are<br>
+			<input type="checkbox" name="Sandlot" value="Sandlot"> The Sandlot<br>
+			<input type="checkbox" name="Help" value="Help"> The Help<br>
+			<input type="checkbox" name="Doubtfire" value="Doubtfire"> Mrs. Doubtfire<br><br>
+			<input type="button" name="submit" value="Submit">
+		</form>
+
+<!-- Footer Information -->
+<footer class="footer">
+	<div class="brooklyn-news">
+		<a href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn">City of Brooklyn News</a>
+	</div>
+	<div class="brooklyn-park">
+		<a href="https://www.brooklynpark.org/">Brooklyn Park</a>
+	</div>
+	<div class="social-media">
+		<a href="https://twitter.com/">Twitter</a><span> · </span><a href="https://www.instagram.com/">Instagram</a><span> · </span><a href="https://facebook.com/">Facebook</a>
+	</div>
+</footer>
+
+</body>
+
+</html>
