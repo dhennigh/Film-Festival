@@ -4,7 +4,7 @@
 <head>
 
 	<meta charset="utf-8">
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,34 +21,38 @@
 
 <body>
 
-<header class="header">
-	<h2 class="info">
-		Movie Information
-	</h2>
+	<header class="header">
+		<h2 class="info">
+			Movie Information
+		</h2>
 
-<!-- Navigation Menu -->
-	<div class="navigation">
-		<nav class="navigation">
-			<a href="index.html">Home</a>
-			<a href="info.html">Info</a>
-			<a href="pre-registration.html">Pre-Register</a>
-			<a href="contact.html">Contact</a>
-		</nav>
-	</div>
-</header>
+	<!-- Navigation Menu -->
+		<div class="navigation">
+			<nav class="navigation">
+				<a href="index.html">Home</a>
+				<a href="info.html">Info</a>
+				<a href="pre-registration.html">Pre-Register</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
 
-<!-- Footer Information -->
-<footer class="footer">
-	<div class="brooklyn-news">
-		<a href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn">City of Brooklyn News</a>
-	</div>
-	<div class="brooklyn-park">
-		<a href="https://www.brooklynpark.org/">Brooklyn Park</a>
-	</div>
-	<div class="social-media">
-		<a href="https://twitter.com/">Twitter</a><span> · </span><a href="https://www.instagram.com/">Instagram</a><span> · </span><a href="https://facebook.com/">Facebook</a>
-	</div>
-</footer>
+	<!-- Footer Information -->
+		<footer class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn">City of Brooklyn News</a>
+				</div>
+				<div class="col-md-4">
+					<a href="https://www.brooklynpark.org/">Brooklyn Park</a>
+				</div>
+				<div class="col-md-4">
+					<a href="https://twitter.com/">Twitter</a> · 
+					<a href="https://www.instagram.com/">Instagram</a> · 
+					<a href="https://facebook.com/">Facebook</a>
+				</div>
+			</div>
+		</footer>
 
 </body>
 
