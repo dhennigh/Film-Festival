@@ -4,7 +4,7 @@
 <head>
 
 	<meta charset="utf-8">
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,55 +21,61 @@
 
 <body>
 
-<header>
-	<div class="sitename">
-		<h2>
-		Brooklyn Outdoor Film Fest
+	<header class="container">
+		<div>
+			<h2>
+			Brooklyn Outdoor Film Fest
+			</h2>
+		</div>
+
+	<!-- Navigation Menu -->
+		<div class="navigation">
+			<nav class="navigation">
+				<a href="index.html">Home</a>
+				<a href="info.html">Info</a>
+				<a href="pre-registration.html">Pre-Register</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Event Description -->
+	<div class="container content text-center">
+		<h2 class="mb-3">
+			<span>·</span>
+				Brooklyn's Largest
+			<span>·</span>
 		</h2>
+		<h4>
+			Outdoor Film
+		</h4>
+		<h3>
+			Festival
+		</h3>
+
+		<p>
+		Come join thousands of families for Brooklyn's first and largest outdoor film festival.
+		</p>
+		<p>
+			Check out the<a href="info.html"> info</a> page for more information and don't forget to <a href="pre-registration.html">pre-register</a>!
+		</p>
 	</div>
 
-<!-- Navigation Menu -->
-	<div class="navigation">
-		<nav class="navigation">
-			<a href="index.html">Home</a>
-			<a href="info.html">Info</a>
-			<a href="pre-registration.html">Pre-Register</a>
-			<a href="contact.html">Contact</a>
-		</nav>
-	</div>
-</header>
-
-<!-- Event Description -->
-<h4>
-	<span>·</span>
-		Brooklyn's Largest
-	<span>·</span>
-</h4>
-<h4>
-	Outdoor Film
-</h4>
-<h3>
-	Festival
-</h3>
-
-<p>
-Come join thousands of families for Brooklyn's first and largest outdoor film festival.
-</p>
-<p>
-	Check out the<a href="info.html"> info</a> page for more information and don't forget to <a href="pre-registration.html">pre-register</a>!
-</p>
-
-<!-- Footer Information -->
-<footer class="footer">
-	<div class="brooklyn-news">
-		<a href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn">City of Brooklyn News</a>
-	</div>
-	<div class="brooklyn-park">
-		<a href="https://www.brooklynpark.org/">Brooklyn Park</a>
-	</div>
-	<div class="social-media">
-		<a href="https://twitter.com/">Twitter</a><span> · </span><a href="https://www.instagram.com/">Instagram</a><span> · </span><a href="https://facebook.com/">Facebook</a>
-	</div>
-</footer>
+	<!-- Footer Information -->
+	<footer class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<a href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn">City of Brooklyn News</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://www.brooklynpark.org/">Brooklyn Park</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://twitter.com/">Twitter</a> · 
+				<a href="https://www.instagram.com/">Instagram</a> · 
+				<a href="https://facebook.com/">Facebook</a>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
