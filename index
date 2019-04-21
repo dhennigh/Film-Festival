@@ -19,61 +19,117 @@
 
 </head>
 
-<body>
-
-	<header class="container">
+<body class="container">
+	<header>
 		<div>
-			<h2>
-			Brooklyn Outdoor Film Fest
-			</h2>
-		</div>
-
-	<!-- Navigation Menu -->
-		<div class="navigation">
-			<nav class="navigation">
-				<a href="index.html">Home</a>
-				<a href="info.html">Info</a>
-				<a href="pre-registration.html">Pre-Register</a>
-				<a href="contact.html">Contact</a>
+			<!-- Navigation Menu -->
+			<nav class="navbar navbar-expand-md navbar-light bg-light">
+			  <a class="navbar-brand font-weight-bold brand-icon" href="index.html">Brooklyn Outdoor Film Festival</a>
+			  	<div class="w-100 text-right">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				</div>
+			  <div class="collapse navbar-collapse text-nowrap" id="navbarNav">
+			    <ul class="navbar-nav">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="info.html">Info</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="pre-registration.html">Pre-Register</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="contact.html">Contact</a>
+			      </li>  
+		      	</ul>
+			  </div>
 			</nav>
 		</div>
 	</header>
+	<!-- Sub-header -->
+	<div class="container bg-light header-date">
+		<div class="row">
+			<div class="font-italic col-md text-uppercase">
+				Aug 5 to 8, 2019
+			</div>
+			<div class="font-italic col-md text-uppercase text-right mr-3">
+				#BOFF
+			</div>
+		</div>
+	</div>
+
 
 	<!-- Event Description -->
-	<div class="container content text-center">
-		<h2 class="mb-3">
-			<span>·</span>
-				Brooklyn's Largest
-			<span>·</span>
-		</h2>
-		<h4>
-			Outdoor Film
-		</h4>
-		<h3>
-			Festival
-		</h3>
-
-		<p>
-		Come join thousands of families for Brooklyn's first and largest outdoor film festival.
-		</p>
-		<p>
-			Check out the<a href="info.html"> info</a> page for more information and don't forget to <a href="pre-registration.html">pre-register</a>!
-		</p>
+	<div class="jumbotron bg">
+		<div class="container content text-center">
+			<h2 class="mb-3 display-3">
+				<span>·</span>
+					Brooklyn's Largest
+				<span>·</span>
+			</h2>
+			<hr>
+			<h4 class="display-4">
+				Outdoor Film
+			</h4>
+			<h2 class="display-4">
+				Festival
+			</h2>
+			<div class="border border-warning text-light bg-secondary rounded">
+				<p>
+				Come join thousands of families for Brooklyn's first and largest outdoor film festival.
+				</p>
+				<p>
+					Check out the <a href="info.html" class="text-light border-bottom border-warning">info</a> page for more information and don't forget to <a href="pre-registration.html" class="text-light border-bottom border-warning">pre-register</a>!
+				</p>
+			</div>
+			<!-- Movie Information -->
+			<div class="mt-3">
+				<div class="container">
+					<div class="row text-left">
+						<div class="container col-md-4 bg-info text-light border border-transparent rounded">
+							<strong class="detail-heading">When?</strong>
+							<hr>
+							<ul>• August 5-8, 2019</ul>
+							<ul>• 6:00PM to Midnight</ul>
+							<ul>• Rain or shine</ul>
+						</div>
+						<div class="container col-md-4 bg-secondary text-light border border-transparent rounded">
+							<strong class="detail-heading">Where?</strong>
+							<hr>
+							<ul>• Brooklyn Bridge Park</ul>
+							<ul>• Under the bridge!</ul>
+							<ul>• Find the address on the <a href="contact.html" class="border-bottom border-light text-light">contact</a> page.</ul>
+						</div>
+						<div class="container col-md-4 bg-warning text-secondary border border-transparent rounded">
+							<strong class="detail-heading">How much and how many?</strong>
+							<hr>
+							<ul>• This event is entirely <strong>FREE</strong>!</ul>
+							<ul>• The park will hold up to 5,000 people</ul>
+							<ul>• <a href="pre-registration.html" class="border-bottom border-secondary text-secondary">Pre-register</a> if you want to be guaranteed a spot in the park!</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="btn btn-warning btn-lg border border-secondary mt-4" href="pre-register.html" role="button">Pre-Register!</a>
+		</div>
 	</div>
 
 	<!-- Footer Information -->
-	<footer class="container">
+	<footer class="container mb-3 bg-secondary pb-5 pt-2">
 		<div class="row">
 			<div class="col-md-4">
-				<a href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn">City of Brooklyn News</a>
+				<a href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn" class="text-light">City of Brooklyn News</a>
 			</div>
-			<div class="col-md-4">
-				<a href="https://www.brooklynpark.org/">Brooklyn Park</a>
+			<div class="col-md-4 text-center">
+				<a href="https://www.brooklynpark.org/" class="text-light">Brooklyn Bridge Park</a>
 			</div>
-			<div class="col-md-4">
-				<a href="https://twitter.com/">Twitter</a> · 
-				<a href="https://www.instagram.com/">Instagram</a> · 
-				<a href="https://facebook.com/">Facebook</a>
+			<div class="col-md-4 text-right text-light">
+				<a href="https://twitter.com/" class="text-light">Twitter</a> · 
+				<a href="https://www.instagram.com/" class="text-light">Instagram</a> · 
+				<a href="https://facebook.com/" class="text-light">Facebook</a>
 			</div>
 		</div>
 	</footer>
