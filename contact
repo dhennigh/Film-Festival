@@ -19,41 +19,64 @@
 
 </head>
 
-<body>
-
-	<header class="header">
-		<h2 class="contact">
-			Contact Us
-		</h2>
-
-	<!-- Navigation Menu -->
-		<div class="navigation">
-			<nav class="navigation">
-				<a href="index.html">Home</a>
-				<a href="info.html">Info</a>
-				<a href="pre-registration.html">Pre-Register</a>
-				<a href="contact.html">Contact</a>
+<body class="container">
+	<header>
+		<div>
+			<!-- Navigation Menu -->
+			<nav class="navbar navbar-expand-md navbar-light bg-light">
+			  <a class="navbar-brand font-weight-bold brand-icon" href="index.html">Brooklyn Outdoor Film Festival</a>
+			  	<div class="w-100 text-right">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				</div>
+			  <div class="collapse navbar-collapse text-nowrap" id="navbarNav">
+			    <ul class="navbar-nav">
+			      <li class="nav-item">
+			        <a class="nav-link" href="index.html">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="info.html">Info</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="pre-registration.html">Pre-Register</a>
+			      </li>
+			      <li class="nav-item active">
+			        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+			      </li>  
+		      	</ul>
+			  </div>
 			</nav>
 		</div>
-
 	</header>
+	<!-- Sub-header -->
+	<div class="container bg-light">
+		<div class="row">
+			<div class="font-italic col-md text-uppercase">
+				Aug 5 to 8
+			</div>
+			<div class="font-italic col-md text-uppercase text-right">
+				#BOFF
+			</div>
+		</div>
+	</div>
 
 	<!-- Footer Information -->
-		<footer class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<a href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn">City of Brooklyn News</a>
-				</div>
-				<div class="col-md-4">
-					<a href="https://www.brooklynpark.org/">Brooklyn Park</a>
-				</div>
-				<div class="col-md-4">
-					<a href="https://twitter.com/">Twitter</a> · 
-					<a href="https://www.instagram.com/">Instagram</a> · 
-					<a href="https://facebook.com/">Facebook</a>
-				</div>
+	<footer class="container mb-3 bg-secondary pb-5 pt-2">
+		<div class="row">
+			<div class="col-md-4">
+				<a href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn" class="text-light">City of Brooklyn News</a>
 			</div>
-		</footer>
+			<div class="col-md-4 text-center">
+				<a href="https://www.brooklynpark.org/" class="text-light">Brooklyn Bridge Park</a>
+			</div>
+			<div class="col-md-4 text-right text-light">
+				<a href="https://twitter.com/" class="text-light">Twitter</a> · 
+				<a href="https://www.instagram.com/" class="text-light">Instagram</a> · 
+				<a href="https://facebook.com/" class="text-light">Facebook</a>
+			</div>
+		</div>
+	</footer>
 
 </body>
 
