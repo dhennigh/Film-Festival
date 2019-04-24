@@ -24,28 +24,28 @@
 		<div>
 			<!-- Navigation Menu -->
 			<nav class="navbar navbar-expand-md navbar-light bg-light">
-			  <a class="navbar-brand font-weight-bold brand-icon" href="index.html">Brooklyn Outdoor Film Festival</a>
+			  	<a class="navbar-brand font-weight-bold brand-icon" href="index.html">Brooklyn Outdoor Film Festival</a>
 			  	<div class="w-100 text-right">
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
 				</div>
-			  <div class="collapse navbar-collapse text-nowrap" id="navbarNav">
-			    <ul class="navbar-nav">
-			      <li class="nav-item">
-			        <a class="nav-link" href="index.html">Home</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="info.html">Info</a>
-			      </li>
-			      <li class="nav-item active">
-			        <a class="nav-link" href="pre-registration.html">Pre-Register<span class="sr-only">(current)</span></a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="contact.html">Contact</a>
-			      </li>  
-		      	</ul>
-			  </div>
+			  	<div class="collapse navbar-collapse text-nowrap" id="navbarNav">
+				    <ul class="navbar-nav">
+				      <li class="nav-item">
+				        <a class="nav-link" href="index.html">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="info.html">Info</a>
+				      </li>
+				      <li class="nav-item active">
+				        <a class="nav-link" href="pre-registration.html">Pre-Register<span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="contact.html">Contact</a>
+				      </li>  
+			      	</ul>
+			  	</div>
 			</nav>
 		</div>
 	</header>
