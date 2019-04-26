@@ -38,17 +38,16 @@ img {
 }
 
 #ed-1 {
-	margin-right: 5px;
+	margin: 5px;
 	background-color: rgba(108, 117, 125, .5);
 }
 
 #ed-2 {
-	margin-right: 5px;
-	margin-left: 5px;
+	margin: 5px;
 	background-color: rgba(108, 117, 125, .5);
 }
 
 #ed-3 {
-	margin-left: 5px;
+	margin: 5px;
 	background-color: rgba(108, 117, 125, .5);
 }
