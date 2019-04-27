@@ -52,6 +52,7 @@ img {
 	background-color: rgba(108, 117, 125, .5);
 }
 
+/* Nav Toggler changes and Footer text alignment changes on smaller screens */
 @media screen and (max-width: 768px) {
 	.small-foot {
 		text-align: left !important;
