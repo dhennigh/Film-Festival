@@ -23,7 +23,8 @@
 
 	<script>
 		$(document).ready(function(){
-		  	$("form").submit(function(){
+		  	$("form").submit(function(e){
+		  		e.preventDefault();
 		  		alert("Your pre-registration information has been received!");
 		  	});
 		  });
@@ -79,6 +80,7 @@
 		<p>
 			Complete this form to pre-register.  After registering, you will receive a confirmation e-mail.
 		</p>
+		<!-- Action will not occur with current JavaScrip setup in <script> section of <head> with e.preventDefault -->
 		<form class="px-3" action="confirmation.html">
 			First name:<br>
 			<input type="text" name="firstname" class="mb-3"><br>
